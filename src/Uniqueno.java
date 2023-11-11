@@ -7,8 +7,8 @@ public class Uniqueno {
         int n ;
         try{
             n = sc.nextInt();
-            if(n < 0){
-                System.out.println("Please enter a positive number! ");
+            if(n < 0 || n<8 || n>8){
+                System.out.println("Please enter a eight digit positive number! ");
                 n = takeint(msg);
             }
         }catch (Exception e){
