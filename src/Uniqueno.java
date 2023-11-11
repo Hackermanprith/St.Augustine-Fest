@@ -27,6 +27,7 @@ public class Uniqueno {
                 return false;
             }
             numbers[temp] = true;
+            num/=10;
         }
         return true;
     }

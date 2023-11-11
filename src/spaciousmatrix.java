@@ -34,7 +34,7 @@ public class spaciousmatrix {
                 }
             }
         }
-        int percentage = (noofzeros/(column+row)) * 100;
+        int percentage = (noofzeros/(column*row)) * 100;
         if(percentage < 50){
             return false;
         }
